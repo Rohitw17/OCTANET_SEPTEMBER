@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Task Management</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRvJTIwZG8lMjBsaXN0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+            
+            background-size: cover; /
+            
+        }
+    </style>
+    
+    <div class="container">
+        <h1>Website Task Management</h1>
+        <div id="task-list">
+        </div>
+        
+        <div id="add-task-form">
+            <h2>Add a New Task</h2>
+            <label>Title:</label>
+            <input type="text" id="title">
+            <br>
+            <label>Deadline:</label>
+            <input type="text" id="deadline">
+            <br>
+            <label>Priority:</label>
+            <input type="text" id="priority">
+            <br>
+            <label>Label:</label>
+            <input type="text" id="label">
+            <br>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
